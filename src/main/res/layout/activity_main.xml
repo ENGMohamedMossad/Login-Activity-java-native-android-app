@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/learn_computer_graphics"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:outlineAmbientShadowColor="#000000"
+        android:outlineSpotShadowColor="#000000"
+        android:paddingBottom="80dp"
+        android:shadowColor="#000000"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#000000"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:paddingTop="20dp"
+        android:text="Username:"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:hint="username"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:paddingTop="20dp"
+        android:text="Password:"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:minHeight="48dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button1_bg"
+        android:text="Login"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Not Have Account Yet? Register."
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
